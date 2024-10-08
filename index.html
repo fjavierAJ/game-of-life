@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de la Vida</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            display: block;
+            margin: 20px auto;
+        }
+        #controls {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="500" height="500"></canvas>
+    <div id="controls">
+        <button onclick="startGame()">Iniciar</button>
+        <button onclick="pauseGame()">Pausar</button>
+        <button onclick="randomize()">Aleatorio</button>
+        <button onclick="clearGrid()">Limpiar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
